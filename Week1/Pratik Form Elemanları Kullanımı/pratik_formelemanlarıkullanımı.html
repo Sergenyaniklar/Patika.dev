@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik - Form Elemanları Kullanımı</title>
+</head>
+<body>
+    <h1>Pratik - Form Elemanları Kullanımı</h1>
+    <!-- Form içine fieldset etiketleri altında isim soyisim, 
+    email, password, cinsiyet seçeneği, meyve seçimi, 
+    mesaj alanı ve son olarak gönder seçeneği yazdım. -->
+    <form>
+        <fieldset>
+            <div>
+                <label for="name">Ad:</label>
+                <input type="text" id="name" name="name">
+                <label for="surname">Soyadı:</label>
+                <input type="surname" id="surname" name="surname">
+            </div><br>
+            <div>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email">
+            </div><br>
+            <div>
+                <label for="password">Şifre:</label>
+                <input type="password" id="password">
+            </div><br>
+            <div>
+                <label for="gender">Cinsiyet:</label>
+                <input type="radio" id="male" name="gender" value="male"> Erkek
+                <input type="radio" id="female" name="gender" value="female"> Kadın
+            </div><br>
+            <div>
+                <label for="message">Mesajınız:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30">
+                </textarea>
+                <input type="submit" value="Gönder">
+            </div><br>
+        </fieldset>
+        <fieldset>
+            <div>
+            <select name="fruit">
+                <option value="apple">Elma</option>
+                <option value="banana">Muz</option>
+                <option value="cherry">Kiraz</option>
+                <input type="submit" value="Gönder">
+            </select>
+            </div><br>
+        </fieldset>
+        <fieldset>
+            <div> 
+                <button type="submit">Tüm Bilgileri Gönder</button>
+            </div><br>
+        </fieldset>
+    </form>
+</body>
+</html>
