@@ -1,0 +1,1 @@
+Proje dosyamın içinde benden istenen pratik ödevini yaptım.
