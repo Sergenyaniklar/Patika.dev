@@ -1,0 +1,1 @@
+Çalışmamda bir kamera kiralama şirketinin tanıtımını içeren site hazırladım. Görsellerden de yararlanarak hazırladığım içeriğin içinde detaylı bilgi verdim. Her sayfaya a etiketiyle bağlantı gerçekleştirdim. 
