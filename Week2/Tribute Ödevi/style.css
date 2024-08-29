@@ -12,16 +12,13 @@ body{
 }
 
 header {
-    
     position: absolute;
     top: 30px;
     margin-left: 750px;
-     
 }
 
 
 .nav a{
-    
     padding: 12px 25px;
     color: rgb(49, 5, 5);
     font-size: 22px;
@@ -30,7 +27,6 @@ header {
     text-shadow: 0.5px 0.5px;
     background-color: transparent;
     text-decoration: none;
-    
 }
 
 a:hover{
@@ -38,7 +34,6 @@ a:hover{
     text-decoration: underline;
     transition: all 0.3s ease;
     background-color: #130d02;
-
 }
 
 .section1{
@@ -61,14 +56,12 @@ a:hover{
     border-radius: 10px 10px 10px 100px;
     box-shadow: 10px 10px 15px #555; 
     margin-left: 520px;
-    
 }
 
 .section2{
     background: url(images/back2.jpg) no-repeat;
     background-size: cover;
     min-height: 180vh;
-    
 }
 
 .word2{
@@ -93,7 +86,6 @@ a:hover{
     border: solid rgb(214, 191, 127) 2px;
     box-shadow: 0px 10px 15px #555;
     text-align: end;
-    
 }
 .par{
     margin-bottom: 10px;
@@ -101,9 +93,9 @@ a:hover{
 }
 
 .section3{
-        background: url(images/back3.jpg) no-repeat;
-        background-size: cover;
-        min-height: 120vh;
+   background: url(images/back3.jpg) no-repeat;
+   background-size: cover;
+   min-height: 120vh;
 }
 
 .bookss{
@@ -114,7 +106,6 @@ a:hover{
     align-items: center;
 }
 #booklist li {
-    
     position: relative;
     text-align: left;
     padding: 12px;
@@ -123,7 +114,6 @@ a:hover{
 
 footer{
     display: flex;
-    
     align-items: center;
     background-color: #130d02;
     color: rgb(255, 255, 255);
