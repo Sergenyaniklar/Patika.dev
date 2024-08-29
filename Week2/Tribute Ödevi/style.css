@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+header {
+    
+    position: absolute;
+    top: 30px;
+    margin-left: 750px;
+     
+}
+
+
+.nav a{
+    
+    padding: 12px 25px;
+    color: rgb(49, 5, 5);
+    font-size: 22px;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 30px;
+    text-shadow: 0.5px 0.5px;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #f5ecdc;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    background-color: #130d02;
+
+}
+
+.section1{
+    background: url(images/back1.jpg) no-repeat;
+    background-size: cover;
+    min-height: 120vh;
+}
+
+
+
+.words{
+    position: absolute;
+    top: 110px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 27px;
+    color: rgb(27, 4, 4);
+    background-color: rgba(180, 22, 22, 0.1); 
+    padding: 30px;
+    border-radius: 10px 10px 10px 100px;
+    box-shadow: 10px 10px 15px #555; 
+    margin-left: 520px;
+    
+}
+
+.section2{
+    background: url(images/back2.jpg) no-repeat;
+    background-size: cover;
+    min-height: 180vh;
+    
+}
+
+.word2{
+    display: flex;
+    position: absolute;
+    padding: 45px;
+    margin: 60px;
+    border-radius: 12px 12px 12px 12px;
+    border: solid rgb(214, 191, 127) 2px;
+    color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 15px #555;
+    text-align: left;
+}
+
+.word3{
+    display: flex;
+    position: absolute;
+    padding: 85px;
+    margin: 90px;
+    border-radius: 12px 12px 12px 12px;
+    color: rgb(252, 252, 252);
+    border: solid rgb(214, 191, 127) 2px;
+    box-shadow: 0px 10px 15px #555;
+    text-align: end;
+    
+}
+.par{
+    margin-bottom: 10px;
+    transform: translate(50px, 80px);
+}
+
+.section3{
+        background: url(images/back3.jpg) no-repeat;
+        background-size: cover;
+        min-height: 120vh;
+}
+
+.bookss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+#booklist li {
+    
+    position: relative;
+    text-align: left;
+    padding: 12px;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    
+    align-items: center;
+    background-color: #130d02;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
