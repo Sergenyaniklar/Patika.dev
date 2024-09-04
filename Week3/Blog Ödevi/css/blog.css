@@ -1,0 +1,29 @@
+body{
+    font-family: "PT Serif", serif;
+    background-color: rgb(59, 54, 54);
+}
+
+.bg-navbar{
+    background-color: #000000; 
+}
+
+h1>span{
+    color: rgb(175, 72, 77);
+}
+.jumb-1 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer{
+    position: relative;
+    padding: 8px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    font-size: 22px;
+}
