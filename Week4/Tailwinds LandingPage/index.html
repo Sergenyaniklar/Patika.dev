@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwinds LandingPage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-200 py-4 mt-4 mb-6 text-black mx-8 my-8">
+        <div class="container mx-auto p-3 flex justify-between">
+            <span class="material-symbols-outlined">
+                copyright
+                </span>
+            <nav class="flex gap-6">
+                <a href="#" class="hover:text-red-300 hover:underline">Link</a>
+                <a href="#" class="hover:text-red-300 hover:underline">Link</a>
+                <a href="#" class="hover:text-red-300 hover:underline">Link</a>
+                <button class="button bg-blue-500 text-white hover:bg-red-700 hover:underline rounded px-1 py-1 ">Sign in</button>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="flex flex-row text-black text-center gap-8">
+        <div class="p-4 shadow rounded bg-gray-200 flex-auto basis-5/12 ml-8 py-16">
+            <a class="text-blue-700 hover:text-red-300" href="#">Mamba design system</a>
+            <h1 class="text-4xl font-bold mb-6 mt-3">Build it with <br>Mamba</h1>
+            <p class="mb-6"><span class="font-bold">Modüler and versatile</span> The ultimate design toolkit <br>for savvy technology startups</p>
+            <form class="flex flex-col py-2 px-2 gap-4 ml-8 mr-8">
+                <input type="text" class="name border px-3 py-3 rounded" placeholder="Your name">
+                <input type="email" class="email border px-3 py-3 rounded" placeholder="E-mail adress">
+                <button class="button bg-blue-500 text-white hover:bg-red-700 rounded px-1 py-1 ">Join the waitlist</button>
+            </form>
+        </div>
+        <div class="flex flex-row rounded bg-gray-400 justify-center basis-7/12 mr-8">
+            <div>
+            <img class="mb-8 border-0 rounded" src="https://picsum.photos/id/32/200/400" alt="Fotoğraf1">
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-14">
+        <div class="text-center mb-12">
+        <a class="text-blue-700 hover:text-red-300" href="#">HOW IT WORKS</a>
+        <h2 class="text-4xl font-bold mb-4 ">Lorem ipsum dolor sit amet consectetur</h2>
+        </div>
+        <div class="container mx-auto flex gap-6">
+            <div class="bg-gray-200 p-10 shadow rounded">
+                <h3 class="text-2xl font-bold mb-4 "><span class="rounded-full bg-blue-500 py-2 px-3">1</span></h3>
+                <p class="text-gray-600"><span class="text-black font-bold">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="bg-gray-200 p-10 shadow rounded">
+                <h3 class="text-2xl font-bold mb-4"><span class="rounded-full bg-blue-500 py-2 px-3">2</span></h3>
+                <p class="text-gray-600"><span class="text-black font-bold">Praesent</span> vel libero a metus suscipit consectetur Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="bg-gray-200 p-10 shadow rounded">
+                <h3 class="text-2xl font-bold mb-4"><span class="rounded-full bg-blue-500 py-2 px-3">3</span></h3>
+                <p class="text-gray-600"><span class="text-black font-bold">Sed auctor</span> massa eget sapien consequat elementum Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-row justify-center text-black gap-8 ml-8 mr-8 mb-12">
+        <div class="flex">
+            <img src="https://picsum.photos/id/33/630/400" alt="">
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="container flex justify-between bg-gray-200 text-black py-8 mx-8 my-8">
+            <p class="font-bold ml-7">Mamba</p>
+            <div class="flex mr-5">
+                <span class="material-symbols-outlined">
+                    mail
+                    </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

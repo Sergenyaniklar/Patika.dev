@@ -1,0 +1,1 @@
+Bu ödevimde Tailwinds CSS ile bir siteyi, eksikleri olmasına rağmen genel olarak benden istenileni yaptım.
