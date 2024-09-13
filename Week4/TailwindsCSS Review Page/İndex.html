@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindsCSS Review Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-serif">
+
+    <!-- Header / Navbar -->
+    <header class="bg-gray-200 shadow sticky top-0">
+        <div class="container mx-auto p-6 flex justify-between items-center">
+            <nav class="space-x-6 underline">
+                <a href="#" class="hover:text-blue-600 hover:text-red-400 hover:underline">Link</a>
+                <a href="#" class="hover:text-blue-600 hover:text-red-400 hover:underline">Link</a>
+                <a href="#" class="hover:text-blue-600 hover:text-red-400 hover:underline">Link</a>
+            </nav>
+            <div class="flex ml-40">
+            <span class="material-symbols-outlined">
+                copyright
+                </span>
+            </div>
+                <div class="flex">
+               <form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="bg-gray-200 px-2 pl-8 py-1 mr-2 rounded" type="search" name="search" id="search"placeholder="Search">
+            <button class="rounded bg-blue-500 hover:bg-red-400 px-5 py-1">Log in</button>
+                </div>
+        </div>
+    </header>
+
+    <div class="bg-gray-400 grid items-center justify-center h-[400px]">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold mb-4">Lorem Ipsum <br> Dolor <span class="text-blue-900">Sit Amet <br> Consectetur</span> Adipisicing.</h1>
+            <p class="text-xl mb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Sunt vero ullam reiciendis.</p>
+            <div class="">
+                <a href="#" class="bg-blue-600 text-white rounded py-3 px-3 hover:bg-blue-500 mr-2">Get Started</a>
+                <a href="#" class="hover:bg-red-400 rounded py-3 px-3 ml-2">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <section class="text-center p-6 rounded-lg shadow-md">
+                <div class="bg-gray-200">
+                <p class="italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus deserunt culpa eos, ex modi! Lorem, ipsum."</p>
+                </div>
+                <div class="bg-blue-200 px-2 py-2">
+                    <h2 class="text-xl font-bold mb-4">Sergio Carlo</h2>
+                    <p>Rottendam Life</p>
+                </div>
+            </section>
+            
+            <section class="text-center p-6 rounded-lg shadow-md">
+                <div class="bg-gray-200">
+                <p class="italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus deserunt culpa eos, ex modi! Lorem, ipsum."</p>
+                </div>
+                <div class="bg-blue-200 px-2 py-2">
+                    <h2 class="text-xl font-bold mb-4">Sergio Carlo</h2>
+                    <p>Rottendam Life</p>
+                </div>
+            </section>
+        
+            <section class="text-center p-6 rounded-lg shadow-md">
+                <div class="bg-gray-200">
+                <p class="italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus deserunt culpa eos, ex modi! Lorem, ipsum."</p>
+                </div>
+                <div class="bg-blue-200 px-2 py-2">
+                    <h2 class="text-xl font-bold mb-4">Sergio Carlo</h2>
+                    <p>Rottendam Life</p>
+                </div>
+            </section>
+            
+            <section class="text-center p-6 rounded-lg shadow-md">
+                <div class="bg-gray-200">
+                <p class="italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus deserunt culpa eos, ex modi! Lorem, ipsum."</p>
+                </div>
+                <div class="bg-blue-200 px-2 py-2">
+                    <h2 class="text-xl font-bold mb-4">Sergio Carlo</h2>
+                    <p>Rottendam Life</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="flex flex-col items-center justify-center mt-12 mb-10">
+        <form class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+            <div class="bg-gray-100 shadow-lg py-3 px-14 mb-4">
+            <h2 class="text-2xl font-bold mb-6 text-center">Contact Us</h2>
+
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-semibold mb-1 ml-9">Name</label>
+                <input type="text" id="name" name="name" class="w-full py-2 px-10 bg-gray-100 border border-gray-300 rounded-lg" placeholder="Name">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-semibold mb-1 ml-9">Email</label>
+                <input type="email" id="email" name="email" class="w-full py-2 px-10 bg-gray-100 border border-gray-300 rounded-lg" placeholder="Email">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 font-semibold mb-1 ml-9">Message</label>
+                <textarea id="message" name="message" rows="4" class="w-full py-2 px-10 bg-gray-100 border border-gray-300 rounded-lg" placeholder="Message"></textarea>
+            </div>
+        
+            <div class="text-center">
+                <button type="submit" class="w-full bg-blue-500 text-white font-semibold py-3 rounded-lg hover:bg-blue-600">Send</button>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto flex justify-between items-center ml-14">
+            <nav class="space-x-6">
+                <a href="#" class="hover:text-blue-600 hover:text-red-400 hover:underline">Shop</a>
+                <a href="#" class="hover:text-blue-600 hover:text-red-400 hover:underline">About</a>
+                <a href="#" class="hover:text-blue-600 hover:text-red-400 hover:underline">Blog</a>
+            </nav>
+            <div class="space-x-6 mr-14">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+    </footer>
+
+</body>
+</html>
